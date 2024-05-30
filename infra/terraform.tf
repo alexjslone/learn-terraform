@@ -1,22 +1,3 @@
-# Copyright (c) HashiCorp, Inc.
-# SPDX-License-Identifier: MPL-2.0
-
-terraform {
-
-  cloud {
-    organization = "alex27_Org"
-
-    workspaces {
-      name = "react-terraform-deployment"
-    }
-  }
-
-  required_providers {
-    aws = {
-      source  = "hashicorp/aws"
-      version = "~> 5.31.0"
-    }
-  }
-
-  required_version = "~> 1.2"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:48887423b78e07255ffb5cdd11477da7cef3e459c9ab9ba88d1eb9e65d177c7b
+size 332
